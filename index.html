@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GG System</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="responsive.css"
+      media="screen and (max-width: 768px)"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="print.css" media="print">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          src="./images/ggsystem.png"
+          alt="GG System"
+        />
+        <div class="menu-section">
+          <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="#sobre">Sobre</a>
+              </li>
+              <li>
+                <a href="#servicos">Serviços</a>
+              </li>
+              <li>
+                <a href="index2.html">Contato</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div>
+          <h2>
+            Bem vindo a GG System, aqui temos as melhores tecnologias em programação, direto ao ponto e do jeito
+            certo.
+          </h2>
+          <p>
+            No meio de tanta informação e da quantidade de ferramentas que
+            surgem todos os dias, você precisa de alguém que te leve na direção
+            certa.
+          </p>
+        </div>
+        <img
+          src="./images/hero.png"
+          alt=""
+        />
+      </div>
+    </section>
+    <section class="hero" id="sobre">
+      <div class="container">
+        <div>
+          <h2>
+            Sobre nós!
+          </h2>
+          <p>
+            Somos especialistas em desenvolvimento de software. Com 22 anos de experiência no mercado nacional e internacional, atuamos na concepção, desenvolvimento e consultoria de aplicativos, plataformas e sistemas. Design, agilidade e tecnologia nos permitem apoiar a inovação, a transformação digital de empresas, e auxiliar startups e scale-ups na construção e sustentação de seus produtos e serviços digitais. 
+          </p><br>
+          <p>
+            Desenvolvemos soluções digitais. Simplificamos a tecnologia para que você possa se dedicar às demais áreas do seu negócio. Conheça nossos serviços e descubra como podemos lhe ajudar, da ideia ao software.
+          </p><br>
+          <a href="index2.html" class="button">Entre em contato</a>
+        </div>
+      </div>
+    </section>
+    <main>
+      <article class="servicos" id="servicos">
+        <section class="titulo">
+            <h2>Serviços</h2>
+        </section>
+        <section class="conteudo">
+            <div class="box">
+                <figure>
+                    <img src="images/cel.png" alt="mobile">
+                </figure>
+                <div class="text">
+                    <h2>Tecnologia mobile</h2>
+                </div>
+            </div>
+            <div class="box">
+                <figure>
+                    <img src="images/internet.png" alt="internet">
+                </figure>
+                <div class="text">
+                    <h2>Tecnologia Web</h2>
+                </div>
+            </div>
+            <div class="box">
+              <figure>
+                  <img src="images/sistema.png" alt="sistemas">
+              </figure>
+              <div class="text">
+                  <h2>Sistemas internos</h2>
+              </div>
+          </div>
+        </section>
+    </article>
+    </main>
+     <div class="back-to-top" onclick="backToTop()"></div>
+     <footer class="copyright">
+      <p>Desenvolvido por uma dupla da FATEC - 2021 &copy;</p>
+  </footer>
+  <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+    <script src="main.js"></script>
+  </body>
+</html>
