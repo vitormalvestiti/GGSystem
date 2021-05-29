@@ -1,85 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>GG System</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="responsive.css"
-      media="screen and (max-width: 768px)"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="print.css" media="print">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <img
-          src="./images/ggsystem.png"
-          alt="GG System"
-        />
-        <div class="menu-section">
-          <div class="menu-toggle">
-            <div class="one"></div>
-            <div class="two"></div>
-            <div class="three"></div>
-          </div>
-          <nav>
-            <ul>
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>
-                <a href="index.html#sobre">Sobre</a>
-              </li>
-              <li>
-                <a href="index.html#servicos">Serviços</a>
-              </li>
-              <li>
-                <a href="contato.html">Contato</a>
-              </li>
-            </ul>
-          </nav>
+
+<head>
+  <title>GG System</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" media="screen and (max-width: 768px)" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="print.css" media="print">
+</head>
+
+<body>
+  
+  <header>
+    <div class="container">
+      <img src="./images/ggsystem.png" alt="GG System" />
+      <div class="menu-section">
+        <div class="menu-toggle">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
         </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="index.html#sobre">Sobre</a>
+            </li>
+            <li>
+              <a href="index.html#servicos">Serviços</a>
+            </li>
+            <li>
+              <a href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </header>
-    <section id="form">
-        <form action="">
-          <h3>Entraremos em contato mais rápido que um SSD.</h3>
-          <div class="form-group">
-            <input class="input-control" placeholder="Nome" />
-            <input type="email" class="input-control" placeholder="Email" />
-          </div>
-          <div class="form-group">
-            <input class="input-control" placeholder="Empresa" />
-          </div>
-          <div class="form-group">
-            <input class="input-control" placeholder="Endereço" />
-          </div>
-          <div class="form-group">
-            <input class="input-control" placeholder="Cidade" style="flex: 3 1" />
-            <input class="input-control" placeholder="Estado" style="flex: 1" />
-            <input class="input-control" placeholder="CEP" style="flex: 1" />
-          </div>
-          <div class="form-group">
-            <button type="submit" class="button">Enviar</button>
-          </div>
-        </form>
-      </section>
-     <div class="back-to-top" onclick="backToTop()"></div>
-     <footer class="copyright">
-      <p>Desenvolvido por uma dupla da FATEC - 2021 &copy;</p>
+    </div>
+  </header>
+
+  <section id="form">
+    <form action="">
+      <h3>Entraremos em contato mais rápido que um SSD.</h3>
+      <div class="form-group">
+        <input class="input-control" placeholder="Nome" />
+        <input type="email" class="input-control" placeholder="Email" />
+      </div>
+      <div class="form-group">
+        <input class="input-control" placeholder="Empresa" />
+      </div>
+      <div class="form-group">
+        <input class="input-control" placeholder="Endereço" />
+      </div>
+      <div class="form-group">
+        <input class="input-control" placeholder="Cidade" style="flex: 3 1" />
+        <input class="input-control" placeholder="Estado" style="flex: 1" />
+        <input class="input-control" placeholder="CEP" style="flex: 1" />
+      </div>
+      <div class="form-group">
+        <button type="submit" class="button">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <div class="back-to-top" onclick="backToTop()"></div>
+
+  <footer class="copyright">
+    <p>Desenvolvido por uma dupla da FATEC - 2021 &copy;</p>
   </footer>
+
   <div vw class="enabled">
-      <div vw-access-button class="active"></div>
-      <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
-      </div>
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
   </div>
-  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>
-      new window.VLibras.Widget('https://vlibras.gov.br/app');
-  </script>
-    <script src="main.js"></script>
-  </body>
+
+</body>
+
 </html>
+
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+<script src="main.js"></script>
