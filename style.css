@@ -132,7 +132,7 @@ main {
 /*=============== 
 FORM
 ==================*/
-#form {
+.bloco {
   width:100%;
 
   background: #344e75;
@@ -144,7 +144,7 @@ FORM
   justify-content: center;
 }
 
-#form form {
+.bloco form {
   width: 90%;
   max-width: 980px;
 
@@ -156,11 +156,11 @@ FORM
     0px 10px 20px -10px rgba(0, 0, 0, 0.1)
 }
 
-#form h3 {
+.bloco h3 {
   margin-bottom: 30px
 }
 
-#form form label {
+.bloco form label {
   display: none;
 }
 
@@ -183,7 +183,7 @@ FORM
   padding: 12px;
   font-size: 1.6rem;
 }
-#form .button {
+.bloco .button {
   margin: 20px 8px 10px;
 }
 
@@ -276,3 +276,4 @@ footer{
 footer p{
   color: #fff;
 }
+

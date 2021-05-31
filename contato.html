@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  
+
   <header>
     <div class="container">
       <img src="./images/ggsystem.png" alt="GG System" />
@@ -40,24 +40,57 @@
     </div>
   </header>
 
-  <section id="form">
-    <form action="">
+  <section class="bloco">
+    <form id="formuario">
       <h3>Entraremos em contato mais rápido que um SSD.</h3>
       <div class="form-group">
-        <input class="input-control" placeholder="Nome" />
-        <input type="email" class="input-control" placeholder="Email" />
+        <input id="name" class="input-control" placeholder="Nome" />
+        <input id="email" type="text" class="input-control" placeholder="Exemplo: test@hotmail.com" />
       </div>
       <div class="form-group">
         <input class="input-control" placeholder="Empresa" />
       </div>
+
       <div class="form-group">
-        <input class="input-control" placeholder="Endereço" />
+        <input id="cep" class="input-control" value="" placeholder="CEP" style="flex: 1" size="10" maxlength="9"
+          onblur="pesquisacep();" onkeypress="mascara(this, '#####-###')" />
+          <input id="endereco" class="input-control" placeholder="Endereço" style="flex: 3 1" />
+       
       </div>
       <div class="form-group">
-        <input class="input-control" placeholder="Cidade" style="flex: 3 1" />
-        <input class="input-control" placeholder="Estado" style="flex: 1" />
-        <input class="input-control" placeholder="CEP" style="flex: 1" />
+        <input id="bairro" class="input-control" placeholder="Bairro" style="flex: 3 1" />
+        <input id="cidade" class="input-control" placeholder="Cidade" style="flex: 3 1" />
+        <select id="estado" name="estados-brasil" class="input-control">
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+        </select>
       </div>
+
       <div class="form-group">
         <button type="submit" class="button">Enviar</button>
       </div>
@@ -76,13 +109,12 @@
       <div class="vw-plugin-top-wrapper"></div>
     </div>
   </div>
-
 </body>
 
 </html>
 
 <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script src="main.js"></script>
 <script>
   new window.VLibras.Widget('https://vlibras.gov.br/app');
 </script>
-<script src="main.js"></script>
